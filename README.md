@@ -336,6 +336,7 @@ DROP COLUMN Order_Date;
 
 ### 9. Text data triming and droping the columns row_num
 ```sql
+UPDATE ecommerce_sales_data_new_new
 SET 
 [ Customer_Name] = TRIM([ Customer_Name]),
 [Order_ID] = TRIM([Order_ID]),
