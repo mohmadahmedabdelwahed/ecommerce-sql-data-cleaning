@@ -187,7 +187,7 @@ ON e1.Product = e2.Product
 WHERE e1.Product ='Blender' OR e1.Product ='Lamp' OR e1.Product ='Microwave' OR e1.Product ='Vacuum'
 ;
 ```
-### 4. filling the missing values and correcting values in the price column
+### 4. Filling the missing values and correcting values in the price column
 #### 4.1 Convert blank values to null 
 ```sql
 UPDATE ecommerce_sales_data_new_new
